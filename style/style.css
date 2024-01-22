@@ -20,6 +20,7 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
+    font-weight: bolder;
 }
 
 .sidebar__navigation {
@@ -41,6 +42,19 @@ body {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600px;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca {
+    margin-top: 15px;
+}
+
+.fa-list {
+    padding-right: 1%;
+}
+
+.adicionar {
+    margin-left: 30px;
+    font-size: 30px;
 }
