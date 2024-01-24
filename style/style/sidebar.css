@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar__navigation .logo {
@@ -43,7 +44,6 @@ body {
     text-decoration: none;
     font-weight: 600px;
     font-size: 20px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -72,7 +72,6 @@ body {
     border: 0px;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -95,7 +94,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #c9c9c9;
+    background-color: #919191;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
@@ -112,7 +111,6 @@ body {
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .tittle{
@@ -132,7 +130,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -146,7 +143,7 @@ body {
 }
 
 .sidebar .cookies a{
-    color: #ff0000;
+    color: #ffffff;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;

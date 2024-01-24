@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <link rel="stylesheet" href="style/styles/reset.css">
-    <link rel="stylesheet" href="../Imerssao-FrontEnd-Alura/style/style.css">
+    <link rel="stylesheet" href="style/style/sidebar.css">
+    <link rel="stylesheet" href="style/style/main-content.css">
+    <link rel="stylesheet" href="style/style/vars.css">
     <script src="../Imerssao-FrontEnd-Alura/javaScript/main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -53,10 +55,10 @@
                                     <span>Criar playlist</span>
                             </button>
                     </div>
+                </section>  
                 <div class="cookies">
                     <a href="">Cookies</a>
                 </div>    
-                </section>  
                 <div class="languages">
                     <button class="languages__button">
                         <span class="fa fa-globe"></span>
@@ -65,6 +67,41 @@
                 </div>
 
       </div>   
-    </div>   
+    </div>
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="style/assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="style/assets/icons/small-right.png" alt="seta direita">
+                    </button>
+                </div>
+
+                    <div class="header__search">
+                        <img src="style/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subcribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+        </div>
+    </main>
+    <footer class="disclaumer-premiun">
+        <div>
+            <div class="textinfo__footer">
+                <p class="text-info__footer-head">Teste o Premiun de graça</p>
+                <p class="text-details">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+            </div>
+            <button class="button-sub">
+                <span class="button-sub__text">Increva-se grátis</span>
+            </button>
+        </div>
+    </footer> 
 </body>
 </html>
