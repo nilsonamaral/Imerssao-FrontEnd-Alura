@@ -17,14 +17,20 @@
     background-color: #121212;
 }
 
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .header__navigation .navigation .arrow-left{
     margin-right: 1.25rem;
 }
 
-.arrow-left .arrow-right{
+.arrow-left, .arrow-right{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
@@ -67,19 +73,81 @@
     outline: none;
 }
 
-.header__login .subscribe{
-    color: #a7a7a7;
+.header__login .subscribe {
+    color: var(--text-sub);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: none;
 }
 
 .header__login .login{
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--text-base-dark);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
 }
+
+/* HOVER */
+
+.header__search:hover {
+    border: 1px solid #fff;
+  }
+  
+  .header__login .subscribe:hover {
+    transform: scale(1.04);
+    color: var(--text-base-light);
+  }
+  
+  .header__login .login:hover {
+    transform: scale(1.04);
+  }
+
+  .navigation .arrow-right:hover, .arrow-left:hover{
+    transform: scale(1.04);
+  }
+
+  .button-sub:hover{
+    transform: scale(1.04);
+  }
+
+  /* FIM DO HOVER */
+
+  /* RODAPÉ */
+
+  .rodape{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(-85deg, rgb(0, 100, 80), rgb(132, 0, 231));
+    color: #fff;
+    border-radius: 3px;
+    bottom: 0;
+    width: 99%;
+  }
+
+  .button-sub{
+    width: 200px;
+    height: 48px;
+    margin-right: 10px;
+    border-radius: 40px;
+  }
+
+  .button-sub .button-sub__text{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text-base-dark);
+  }
+
+  .textinfo__footer .text{
+    font-weight: 700;
+  }
+
+  .textinfo__footer {
+    margin-left: 15px;
+  }
